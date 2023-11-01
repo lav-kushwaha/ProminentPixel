@@ -1,1 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap');
 
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+    background-image:url(./assets/asset36.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    color: #022874;
+}
+
+
+
+
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans 3', sans-serif; */
