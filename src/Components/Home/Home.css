@@ -58,6 +58,7 @@
         justify-content: flex-start;
         background-image: none;
         width:100%;
+        height:100%;
     }
     .back-img{
         background-image:none;
@@ -65,19 +66,17 @@
     .home-container{
         width:90%;
     }
-
     .home-container h4{
-        font-size:3.5vw;
+        font-size:4vw;
         color: chocolate;
     }
-
     .home-container>h2{
-        font-size:2.5em;
-        line-height:1.2em;
+        font-size:2.4em;
+        line-height:1.3em;
     }
     .home-container p{
-        width:95%;
-        font-size:4.5vw;
+        width:92%;
+        font-size:4.6vw;
         padding-top:2vh;
         color: black;
     }

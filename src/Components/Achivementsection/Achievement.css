@@ -1,0 +1,110 @@
+.achievements-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1200px;
+    margin:0 auto;
+    margin-top:6vw;
+    column-gap:1vw;
+}
+
+.achievement-content h2{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #003399;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.achievement-content p{
+    font-size:17px;
+    font-family: 'Karla', sans-serif;
+    color: #666;
+    line-height:2em;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.achievement-content span{
+    font-weight:600;
+}
+
+.achievement-number-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:2vw;
+    margin-top:2vw;
+ }
+
+.lines-of-code{
+    background-image: linear-gradient(-90deg, #fdb800, #f04f20);
+    box-shadow: rgba(175,173,173,0.2) 5px 5px 5px;
+    border-radius: 10px;
+    height: 120px;
+    width:20vw;
+    column-gap:15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.lines-of-code>img{
+    width:5vw;
+}
+.lines-number>h2{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.8em;
+    font-size:2vw;
+    font-weight:800;
+    color: #fff;
+}
+.lines-number>p{
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+@media screen and (max-width:600px) {
+    .achievements-section{
+       flex-direction: column;
+       width:100%;
+       margin-top:45vw;
+       padding-inline:20px;
+    }
+
+    .achievement-content h2{
+        font-size:30px;
+        text-align: center;
+        width:100%;
+    }
+
+    .achievement-content p{
+        font-size:16px;
+        line-height:1.6em;
+        font-weight:400;
+    }
+
+    .achievement-number-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top:10vw;
+     }
+     .lines-of-code{
+        height:130px;
+        width:100%;
+        padding:10vw;
+    }
+    .lines-of-code img{
+        width:18vw;
+    }
+    .lines-number{
+        margin-left:10vw;
+    }
+    .lines-number>h2{
+        line-height: 2em;
+        font-size:8vw;
+    }
+
+}

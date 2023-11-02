@@ -3,13 +3,18 @@
     justify-content:center;
     align-items: center;
     width:100%;
+    background-image: url(../../assets/asset40.svg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 .home-service{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    column-gap:2vw;
+    flex-wrap: wrap;
+    column-gap:1.1vw;
     max-width:1200px;
 }
 
@@ -23,6 +28,7 @@
   font-family: 'Source Sans 3', sans-serif;
   font-size:1.2vw;
   margin-block:20px;
+  font-weight:800;
   color: #003399;
 }
 
@@ -30,17 +36,17 @@
     font-family: 'Karla', sans-serif;
     line-height: 1.5em;
     color:#666;
-   
 }
 
 .application-development img{
     width:10vw;
     align-items: center;
 }
+
 .img1{
     background: #003399;
     padding:4vw;
-    margin-bottom:20px;
+    margin-bottom:30px;
     border-radius: 42% 58% 68% 32% / 65% 51% 49% 35%;
     cursor: pointer;
 }
@@ -66,12 +72,38 @@
     margin-bottom: 30px;
     border-radius: 42% 58% 68% 32% / 65% 51% 49% 35%;
     cursor: pointer;
-     transition:1s, border-radius 1s;
+     /* transition:1s, border-radius 1s; */
 }
 
-
-
 @media screen and (max-width:600px){
-     
+    .home-service-section{
+        margin-top:15vw;
+    }
+    .home-service{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        row-gap:35vw;
+        column-gap:8vw;
+    }
+    .application-development{
+        width:140px;
+        height:250px;
+    }
+
+    .application-development img{
+        width:100%;
+    }
+    .application-development h2{
+        font-size:5vw;
+        margin-bottom:10px;
+      }
+    .application-development p{
+        font-family: 'Karla', sans-serif;
+        line-height: 1.2em;
+    }
+    .img1,.img2,.img3,.img4{
+        padding:10vw;
+    }
+      
 }
 
