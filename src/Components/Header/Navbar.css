@@ -5,13 +5,15 @@
     height:15vh;
     z-index:10;
 }
+  
 .navbar-links ul {
     display: flex;
     list-style:none;
     column-gap:1vw;
-    font-weight:500;
+    font-weight:700;
     font-size:1.2vw;
 }
+
 .contact-us{
     box-shadow: rgba(236,66,16,0.5) 0 0 5px;
     background: #f04f20;

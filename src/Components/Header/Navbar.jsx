@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menu,setMenu] = useState(true);
   return (
     <>
-    <nav className='Navbar'>
+   <nav className={`Navbar`}> 
       <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
        <div className="navbar-links">
           <ul>
