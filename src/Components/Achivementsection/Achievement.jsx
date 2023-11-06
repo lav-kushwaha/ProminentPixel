@@ -8,7 +8,8 @@ import img4 from '../../assets/asset30.svg'
 const Achivement = () => {
   return (
      <>
-     <section className='achievements-section'>
+     <section className='achieve-section'>
+        <div className="achievements-section">
             <div className="achievement-content">
                 <h2>OUR ACHIEVEMENTS</h2>
                 <p><span>ProminentPixel</span> has developed its popularity through its unbeatable services like any other top company. Working on thousands of projects, our expert team has gained the experience in the way that they can manage multiple projects at a time.</p>
@@ -43,6 +44,7 @@ const Achivement = () => {
                         <p>SATISFIED CLIENTS</p>
                     </div>
                 </div>
+            </div>
             </div>
      </section>
      </>

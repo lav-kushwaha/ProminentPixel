@@ -2,6 +2,9 @@ import React from 'react'
 import './Home.css'
 import ServiceSection from '../ServiceSection/ServiceSection'
 import Achivement from '../Achivementsection/Achievement'
+import Ourservices from '../Ourservices/Ourservices'
+import Hireresources from '../Hireresources/Hireresources'
+import Aboutprominentpixel from '../About/Aboutprominentpixel'
 
 
 const Home = () => {
@@ -17,6 +20,9 @@ const Home = () => {
    </section>
    <ServiceSection/>
    <Achivement/>
+   <Ourservices/>
+   <Hireresources/>
+   <Aboutprominentpixel/>
    {/*spacer*/}
    <div className="spacer">
    </div>

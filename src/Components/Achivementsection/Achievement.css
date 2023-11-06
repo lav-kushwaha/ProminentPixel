@@ -1,3 +1,9 @@
+.achieve-section{
+    background-image:url('../../assets/asset41.svg');
+    background-repeat: no-repeat;
+    background-position:100%;
+}
+
 .achievements-section{
     display: flex;
     justify-content: center;
@@ -6,6 +12,8 @@
     margin:0 auto;
     margin-top:6vw;
     column-gap:1vw;
+    padding-block:5vw;
+
 }
 
 .achievement-content h2{
@@ -67,6 +75,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .achieve-section{
+        background-image:none;
+    }
     .achievements-section{
        flex-direction: column;
        width:100%;

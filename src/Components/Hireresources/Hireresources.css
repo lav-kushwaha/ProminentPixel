@@ -1,0 +1,116 @@
+.Hire-resources-section{
+    margin-top:5vw;
+}
+.hire-resources-container{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-left:10vw;
+}
+.hire-resources-container h2{
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1em;
+    color: #012a7b;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.hire-resources-container>p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+}
+
+.hire-resources{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin-top:2vw;
+    gap:2vw;
+    max-width:800px;
+}
+.hire-java-developer{
+    background-image: radial-gradient(#f9f9f9 10%, #fff 10%);
+    box-shadow: 0 14px 28px 0 rgba(142,77,70,.35);
+    padding:40px 0;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.hire-java-developer>p{
+    font-weight:500;
+    font-size:16px;
+    margin-top:25px;
+    font-family: 'Karla', sans-serif;
+    color: #000;
+    margin-inline:8px;
+}
+
+.hire-java-developer img{
+    width: 50px;
+    height: 50px;
+    box-shadow: #241e1e 0 0 11px;
+    border-radius: 10px;
+
+    /* margin: 0 auto;
+    background: #fff;
+    
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px; */
+    
+}
+
+.hire-view-more-links a{
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-size:1em;
+    margin-left:640px;
+    margin-top:2vw;
+    font-weight: 500;
+    color: #f04f20;
+    border: 2px solid #f04f20;
+    border-radius: 100px;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+    background-size: 200% 100%;
+    /* background-image: linear-gradient(to right, transparent 50%, rgba(240, 79, 32, 1) 50%);
+    transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease; */
+}
+.hire-view-more-links a::after{
+    content: ">";
+    margin-left:11px;
+}
+
+@media screen and (max-width:600px) {
+    .Hire-resources-section{
+        margin-top:12vw;
+    }
+
+    .hire-resources-container{
+        margin-inline:5vw;
+    }
+
+    .hire-resources-container h2{
+        font-size: 1.5rem;
+        margin-bottom:2vw;
+    }
+    .hire-resources-container p{
+        font-size:1.1rem;
+    }
+    .hire-resources{
+        grid-template-columns:repeat(2,1fr);
+        margin-top:5vw;
+        gap:4vw;
+        width:100%;
+    }
+    .hire-java-developer>p{
+        font-size:16px;
+    }
+    .hire-view-more-links a{
+        margin-left:10px;
+        margin-top:8vw;
+  }
+}

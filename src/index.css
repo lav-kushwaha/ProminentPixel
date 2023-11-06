@@ -13,7 +13,7 @@ html,body{
     overflow-x: hidden;
     background-image:url(./assets/asset36.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
 }
 
 a{
