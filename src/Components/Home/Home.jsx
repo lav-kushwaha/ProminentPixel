@@ -5,6 +5,7 @@ import Achivement from '../Achivementsection/Achievement'
 import Ourservices from '../Ourservices/Ourservices'
 import Hireresources from '../Hireresources/Hireresources'
 import Aboutprominentpixel from '../About/Aboutprominentpixel'
+import Testimonialsection from '../Testimonials/Testimonialsection'
 
 
 const Home = () => {
@@ -23,11 +24,8 @@ const Home = () => {
    <Ourservices/>
    <Hireresources/>
    <Aboutprominentpixel/>
-   {/*spacer*/}
-   <div className="spacer">
-   </div>
+   <Testimonialsection/>
    </main>
-  
    </>
   )
 }

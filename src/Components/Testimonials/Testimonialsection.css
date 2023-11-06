@@ -1,0 +1,126 @@
+.testimonial-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:50px;
+    background-image: url(../../assets/asset48.svg);
+    background-repeat: no-repeat;
+    height:80vh;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1200px;
+    column-gap:1.5vw;
+}
+
+.left-testimonial{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap:1vw;
+}
+
+.feedback-container h2{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    margin-bottom:1vw;
+    margin-left:4vw;
+}
+
+.feedback-container>p{
+    color: #333;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    margin-left:4vw;
+}
+.feedback1{
+    height:350px;
+    width:350px;
+    background:linear-gradient(-140deg,#f9950b,#f04f20);
+    border-radius:5%;
+    padding-inline:1vw;
+    margin-bottom:2vw;
+}
+.feedback1 img{
+    margin-block:3vw;
+    margin-left:2vw;
+}
+.feedback1 p{
+    text-align: center;
+    line-height:1.6em;
+    color:#fff;
+    font-family:'Karla', sans-serif;
+}
+
+.right-testimonial{
+    margin-bottom:10vw;
+}
+
+.right-testimonial span{
+    color: #f04f20;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+.right-testimonial h2{
+    line-height: 1em;
+    color: #003399;
+    font-weight: 900;
+    font-family: 'Source Sans 3', sans-serif;;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+}
+.right-testimonial p{
+    font-weight: 200;
+    font-size: 17px;
+    color: #666;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.6em;
+    margin-top:2vw;
+}
+
+@media screen and (max-width:600px) {
+    .testimonial-section{
+        background: none;
+        height: auto;
+    }
+    .testimonial-container{
+        flex-direction: column-reverse;
+        width:100%;
+        column-gap:1.5vw;
+    }
+    .left-testimonial{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        column-gap:1vw;
+    }
+    .right-testimonial{
+       margin-inline:6vw;
+       margin-top:15vw;
+    }
+    .right-testimonial span{
+        font-size:20px;
+        font-weight: 500;
+    }
+    .right-testimonial h2{
+        font-size: 1.8rem;
+        margin-block:5vw;
+    }
+    .feedback1{
+        height:320px;
+        width:330px;
+        padding-inline:8vw;
+        padding-top:8vw;
+    }
+    .feed2{
+        display: none;
+    }
+
+}
