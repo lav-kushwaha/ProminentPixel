@@ -89,13 +89,12 @@
         margin-top:20vw;
     }
     .left{
-        width:90%;
+       width:90%;
        text-align: center;
        margin-top:10vw;
     }
     .left>span {
         font-size:18px;
-        margin-left:2vw;
     }
     .left h2{
         font-size:30px;

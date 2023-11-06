@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .footer-section{
+        margin-top:16vw;
+    }
     .footer-container{
         flex-direction: column;
         align-items: flex-start;
