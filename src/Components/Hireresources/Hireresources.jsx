@@ -51,7 +51,7 @@ const Hireresources = () => {
             </div>
         </div>
         <div className="hire-view-more-links">
-           <Link to="/">View More</Link>
+           <Link to="coming-soon">View More</Link>
         </div>
     </div>
    </section>

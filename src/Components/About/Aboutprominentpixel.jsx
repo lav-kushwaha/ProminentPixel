@@ -14,7 +14,7 @@ const Aboutprominentpixel = () => {
             <h2>PROMINENTPIXEL</h2>
             <p>Isn’t it surprising to know that ProminentPixel gained huge popularity all over India after a very few years of its establishment? Dedication, Hard work, Creativity, and quality services are the reasons!</p>
             <p>From the day we established ProminentPixel, our dedicated team with their efforts showed us almost 100 percent efforts.</p>
-            <div className="readmore-link"><Link to="ReadMore">Read More</Link></div>
+            <div className="readmore-link"><Link to="coming-soon">Read More</Link></div>
             </div>
             <div className="right">
                 <img src={img} alt="about_img" />

@@ -31,7 +31,7 @@ const Ourservices = () => {
             </div>
         </div>
         <div className="view-more-links">
-           <Link to="/">View More</Link>
+           <Link to="coming-soon">View More</Link>
         </div>
     </section>
   )
